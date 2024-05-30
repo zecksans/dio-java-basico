@@ -12,5 +12,12 @@ public class Usuario {
 
         smartTv.desligar();
         System.out.println("Novo Status => TV Ligada? " + smartTv.ligada);
+
+        smartTv.diminuirVolume(); // O volume de 15 passa para 14
+        smartTv.diminuirVolume(); // O volume de 14 passa para 13
+        smartTv.aumentarVolume(); // O volume de 13 passa para 14
+
+        System.out.println("Qual o volume atual? " + smartTv.volume);
+
     }
 }
