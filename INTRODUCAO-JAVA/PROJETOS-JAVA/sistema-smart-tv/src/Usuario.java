@@ -19,5 +19,13 @@ public class Usuario {
 
         System.out.println("O volume atual é: " + smartTv.volume);
 
+        System.out.println("O canal atual é: " + smartTv.canal);
+        smartTv.aumentarCanal(); // O canal passa de 1 para 2
+        System.out.println("O canal atual é: " + smartTv.canal);
+        smartTv.diminuirCanal(); // O canal passa de 2 para 1
+        System.out.println("O canal atual é: " + smartTv.canal);
+        smartTv.selecionarCanal(5);
+        System.out.println("O canal atual é: " + smartTv.canal);
+
     }
 }
