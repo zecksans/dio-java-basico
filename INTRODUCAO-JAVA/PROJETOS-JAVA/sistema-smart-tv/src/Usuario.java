@@ -17,7 +17,7 @@ public class Usuario {
         smartTv.diminuirVolume(); // O volume de 14 passa para 13
         smartTv.aumentarVolume(); // O volume de 13 passa para 14
 
-        System.out.println("Qual o volume atual? " + smartTv.volume);
+        System.out.println("O volume atual é: " + smartTv.volume);
 
     }
 }
