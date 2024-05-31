@@ -1,6 +1,6 @@
 package edu.ezequiel.documentacao;
 
-public class Javadoc {
+public class Javadc {
     
     public static void main(String[] args) {
         
