@@ -1,5 +1,7 @@
 package condicional;
-public class ResultadoEscolar {
+
+public class CondiconalEncadeada {
+    
     public static void main(String[] args) {
 
         int nota = 6;
