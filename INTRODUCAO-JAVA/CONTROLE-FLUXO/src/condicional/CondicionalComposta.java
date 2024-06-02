@@ -1,7 +1,7 @@
 package condicional;
 public class CondicionalComposta {
     public static void main(String[] args) {
-
+        // Nota Escolar
         int nota = 6;
         
         if(nota >= 7)
